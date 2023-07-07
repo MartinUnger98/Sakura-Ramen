@@ -1,0 +1,242 @@
+html{
+    scroll-behavior: smooth;
+}
+.header {
+
+    height: 100vh;
+    background-image: url('./img/bgr1.jpg');
+    background-position: 50% 100%;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+body {
+    margin: 0%;
+
+}
+
+.textgroup1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+    font-family: 'Raleway', sans-serif;
+    text-align: center;
+   
+}
+
+.textgroup1 h1 {
+    font-size: 100px;
+}
+
+.navigation {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    justify-content: space-between;
+    margin: 50px;
+    align-items: center;
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold;
+}
+
+.navigation a {
+    color: white;
+    text-decoration: none;
+}
+.navigation a:hover{
+    text-decoration: underline;
+}
+
+.nav_text {
+    flex-direction: row;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.nav_text a {
+    margin-left: 40px;
+}
+
+.phone_img {
+    height: 30px;
+    width: 30px;
+    
+}
+
+.phonenumber {
+    height: 30px;
+    width: 150px;
+    background-color: #a32727;
+    border: 1.5px solid white;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:5px;   
+}
+
+.flower {
+    height: 70px;
+    width: 70px;
+}
+
+.order_background {
+    background-size: cover;
+
+
+}
+
+.textgroup2 {
+    display: flex;
+    justify-content: center;
+    font-family: 'Raleway', sans-serif;
+    color: #a32727;
+    font-size: 50px;
+    text-align: center;
+}
+
+.order {
+    text-align: center;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    margin: 0px 50px 50px 50px;
+}
+
+.order_text {
+    justify-content: space-between;
+    font-family: 'Economica', sans-serif;
+    flex-direction: column;
+}
+.header_2 {
+    background-image: url('./img/background.jpg');
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    
+}
+.menu {
+    display: flex;
+    justify-content: center;
+    width: auto;
+    height: auto;
+    align-items: center;
+    margin: 0px 0px 30px 0px;    
+}
+.menu_pic{
+    height: 250px;
+    width: 250px;
+    padding: 0px 30px 0px 30px;
+}
+.menu_kind{
+    font-family: 'Economica', sans-serif;
+    font-size: 50px;
+    margin: 0px 0px 30px 0px;
+    
+}
+.menu_table{
+    font-family: 'Raleway', sans-serif;
+    display: flex;
+    justify-content: space-between;
+    width: 350px;
+    color: rgb(102, 96, 96);
+    font-size: 20px;
+    font-weight: bold;    
+}
+.textgroup3{
+    display: flex;
+    justify-content: center;
+    font-family: 'Raleway', sans-serif, bold;
+    color: #a32727;
+    font-size: 50px;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding: 0;
+}
+.adress{
+    justify-content: center;
+    align-items: baseline;
+    display: flex;
+    font-family: 'Raleway', sans-serif;
+    font-size: 25px;
+    margin: 0px 0px 20px 0px;
+}
+.adress_logo{
+    height: 25px;
+    width: 20px;
+    object-fit: contain;
+    margin: 0px 10px 0px 0px;
+}
+.googlemaps{
+    border: 0;
+    width: 100%;
+    height: 450px;
+}
+.footer{
+    display: flex;
+    justify-content: space-between;
+    margin: 30px 50px 0px 50px;
+}
+.footer_pic{
+    margin: 0px 15px 0px 15px;
+}
+
+.left_footer{
+    display: flex;
+    align-items: center;
+    color: rgb(202, 19, 19);
+    font-family: 'Raleway', sans-serif;
+
+}
+.right_footer a {
+    margin: 0px 30px 0px 0px;
+}
+.impressum{
+    display: flex;
+    justify-content: center;
+    margin: 30px 0px 0px 0px;
+    font-family: 'Raleway', sans-serif;
+    font-size: 20px;
+
+}
+.impressum a {
+    text-decoration: none;
+    color: black;
+}
+@media(max-width: 700px){
+    .textgroup1 h1{
+        font-size: 50px;
+    }
+    .nav_bar_dis{
+        display: none;
+    }
+    .textgroup2 h2 {
+        font-size: 50px;
+    }
+    .order{
+        flex-direction: column;
+    }
+    .order_text img {
+        width: 70%;
+    }
+    .order_text {
+        font-size: 50px;
+    }
+    .menu{
+        flex-direction: column;
+    }
+    .menu_right_order:nth-child(1){
+        order: 2;
+    }
+
+}
